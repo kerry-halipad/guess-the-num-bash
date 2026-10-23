@@ -49,7 +49,7 @@ making sure the user types his name and the welcome message has the users name.
 How to use while loops in batch
 
 Future Improvements
-telling the user the range in which he/she is.
+telling the user the range in which they are guessing
 The user to be able to choose his own range.
 
 👨🏽‍💻 Author
