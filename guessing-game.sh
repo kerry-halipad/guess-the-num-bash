@@ -18,17 +18,17 @@ echo "===================================================="
 echo "Hi $name, Welcome to our guess the number game! "
 echo "===================================================="
 
-while (( $guess != $number));  do
+while (( "$guess" != number )); do
   ((count++))
- read -p "please guess a number : " guess
+ read -r -p "please guess a number : " guess
 
  if [[ -z $guess ]]; then 
 
     echo "please enter a valid number"
     exit 1;
- elif (( $guess > $number )); then 
+ elif (( "$guess" > number )); then 
     echo "your guess is too high"
- elif (( $guess < $number )); then
+ elif (( "$guess" < number )); then
     echo "your guess is too low"
  else
     echo "congratulations! you guessed the number :)"
